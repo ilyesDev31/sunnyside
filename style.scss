@@ -16,6 +16,7 @@
 // variables
 // section one
 .section-one{
+    overflow-x: hidden;
     background-image:url("../images/desktop/image-header.jpg") ;
     padding-top: 20px;
     height: 100vh;
@@ -68,6 +69,8 @@ display: block;
 // section one
 // section two
 .section-two, .section-three, .section-four{
+    overflow-x: hidden;
+
 display: flex;
 flex-wrap: wrap;
 position: relative;
